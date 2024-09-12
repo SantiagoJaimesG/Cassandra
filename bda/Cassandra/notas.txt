@@ -1,0 +1,48 @@
+Importaciones del video
+
+COPY usuarios (user_id, nombre, correo_electronico, fecha_registro) FROM '/home/Cassandra/data_unirlab_001.csv' WITH DELIMITER = ';'  AND HEADER=TRUE;
+
+Importaciones de Musica
+
+COPY usuarios (user_id, nombre, correo_electronico, fecha_registro) FROM '/home/Cassandra/usuarios.csv' WITH DELIMITER = ','  AND HEADER=TRUE;
+
+COPY artistas (artista_id, nombre_artista) FROM '/home/Cassandra/artistas.csv' WITH DELIMITER = ',' AND HEADER = TRUE;
+
+COPY albumes (album_id, nombre_album, artista_id, fecha_lanzamiento) FROM '/home/Cassandra/albumes.csv' WITH DELIMITER = ',' AND HEADER = TRUE;
+
+COPY canciones (cancion_id, titulo_cancion, album_id, duracion) FROM '/home/Cassandra/canciones.csv' WITH DELIMITER = ',' AND HEADER = TRUE;
+
+COPY listas_reproduccion (playlist_id, nombre_playlist, user_id) FROM '/home/Cassandra/lista_reproduccion.csv' WITH DELIMITER = ',' AND HEADER = TRUE;
+
+COPY canciones_en_listas (playlist_id, cancion_id) FROM '/home/Cassandra/canciones_en_listas.csv' WITH DELIMITER = ',' AND HEADER = TRUE;
+
+Consultas
+
+SELECT * FROM usuarios;
+
+SELECT * FROM usuarios WHERE user_id = 550e8400-e29b-41d4-a716-446655440000;
+
+SELECT artista_id FROM albumes WHERE album_id = 550e8400-e29b-41d4-a716-446655440020;
+
+SELECT * FROM artistas WHERE artista_id = 550e8400-e29b-41d4-a716-446655440010;
+
+SELECT * FROM canciones WHERE album_id = 550e8400-e29b-41d4-a716-446655440020;
+
+SELECT * FROM canciones WHERE cancion_id = 550e8400-e29b-41d4-a716-446655440030;
+
+SELECT cancion_id FROM canciones_en_listas WHERE playlist_id = 550e8400-e29b-41d4-a716-446655440040;
+
+SELECT * FROM canciones WHERE cancion_id = 550e8400-e29b-41d4-a716-446655440030;
+
+SELECT * FROM listas_reproduccion WHERE user_id = 550e8400-e29b-41d4-a716-446655440000 LIMIT 10;
+
+SELECT * FROM canciones WHERE duracion > '4:00';
+
+CREATE TABLE albumes_artistas (
+    album_id UUID PRIMARY KEY,
+    nombre_album TEXT,
+    artista_id UUID,
+    nombre_artista TEXT,
+    fecha_lanzamiento DATE
+);
+

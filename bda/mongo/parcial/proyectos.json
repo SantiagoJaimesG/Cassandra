@@ -1,0 +1,281 @@
+[
+  {
+    "_id": { "$oid": "66d76a7e6bc21f90b73ac853" },
+    "titulo": "Implementación de Sistema de Pagos Online",
+    "descripcion": "Desarrollo de un sistema para aceptar pagos en línea en la tienda en línea de la empresa.",
+    "fecha_inicio": "2024-05-01T00:00:00Z",
+    "fecha_finalizacion": "2024-11-30T00:00:00Z",
+    "valor": 16000000,
+    "tareas": [
+      {
+        "titulo": "Integrar pasarela de pagos",
+        "descripcion": "Integrar una pasarela de pagos en la tienda en línea",
+        "fecha_creacion": "2024-05-10T00:00:00Z",
+        "fecha_vencimiento": "2024-06-15T00:00:00Z",
+        "estado": "pendiente"
+      },
+      {
+        "titulo": "Configurar seguridad de transacciones",
+        "descripcion": "Implementar medidas de seguridad para proteger las transacciones en línea",
+        "fecha_creacion": "2024-07-01T00:00:00Z",
+        "fecha_vencimiento": "2024-08-15T00:00:00Z",
+        "estado": "en progreso"
+      }
+    ],
+    "tipo_proyecto": "implementación"
+  },
+  {
+    "_id": { "$oid": "66d76a7e6bc21f90b73ac854" },
+    "titulo": "Optimización del Sitio Web Corporativo",
+    "descripcion": "Mejoras en el sitio web corporativo, enfocándose en la velocidad y la experiencia del usuario.",
+    "fecha_inicio": "2024-10-01T00:00:00Z",
+    "fecha_finalizacion": "2024-12-31T00:00:00Z",
+    "valor": 14000000,
+    "tareas": [
+      {
+        "titulo": "Actualizar diseño",
+        "descripcion": "Actualizar el diseño del sitio web para mejorar la experiencia del usuario",
+        "fecha_creacion": "2024-11-01T00:00:00Z",
+        "fecha_vencimiento": "2024-12-01T00:00:00Z",
+        "estado": "en progreso"
+      }
+    ],
+    "tipo_proyecto": "optimización"
+  },
+  {
+    "_id": { "$oid": "66d76a7e6bc21f90b73ac857" },
+    "titulo": "Implementación de Sistema de Soporte al Cliente",
+    "descripcion": "Desarrollo de un sistema para gestionar las solicitudes y problemas de los clientes.",
+    "fecha_inicio": "2024-08-01T00:00:00Z",
+    "fecha_finalizacion": "2024-12-01T00:00:00Z",
+    "valor": 17000000,
+    "tareas": [
+      {
+        "titulo": "Configurar sistema de tickets",
+        "descripcion": "Implementar un sistema de gestión de tickets de soporte",
+        "fecha_creacion": "2024-08-05T00:00:00Z",
+        "fecha_vencimiento": "2024-09-01T00:00:00Z",
+        "estado": "pendiente"
+      },
+      {
+        "titulo": "Desarrollar panel de administración",
+        "descripcion": "Crear un panel para que los agentes de soporte gestionen los tickets",
+        "fecha_creacion": "2024-10-01T00:00:00Z",
+        "fecha_vencimiento": "2024-11-01T00:00:00Z",
+        "estado": "en progreso"
+      }
+    ],
+    "tipo_proyecto": "implementación"
+  },
+  {
+    "_id": { "$oid": "66d76a7e6bc21f90b73ac85c" },
+    "titulo": "Desarrollo de Plataforma de Gestión de Eventos",
+    "descripcion": "Creación de una plataforma para la planificación y gestión de eventos corporativos.",
+    "fecha_inicio": "2024-09-01T00:00:00Z",
+    "fecha_finalizacion": "2024-11-30T00:00:00Z",
+    "valor": 15000000,
+    "tareas": [
+      {
+        "titulo": "Diseñar módulos de eventos",
+        "descripcion": "Crear módulos para gestionar eventos y asistentes",
+        "fecha_creacion": "2024-09-10T00:00:00Z",
+        "fecha_vencimiento": "2024-10-01T00:00:00Z",
+        "estado": "pendiente"
+      },
+      {
+        "titulo": "Integrar sistema de pagos",
+        "descripcion": "Añadir funcionalidad para pagos en línea para eventos",
+        "fecha_creacion": "2024-10-05T00:00:00Z",
+        "fecha_vencimiento": "2024-11-01T00:00:00Z",
+        "estado": "en progreso"
+      }
+    ],
+    "tipo_proyecto": "gestión"
+  },
+  {
+    "_id": { "$oid": "66d7705d987181d8d22710bc" },
+    "titulo": "Programar en base de datos avanzadas",
+    "descripcion": "Programación de bases de datos MongoDB.",
+    "fecha_inicio": "2024-09-01T00:00:00Z",
+    "fecha_finalizacion": "2024-12-31T00:00:00Z",
+    "valor": 1500000,
+    "tareas": [
+      {
+        "titulo": "Introducción a mongo",
+        "descripcion": "Descripción de la primera tarea.",
+        "fecha_creacion": "2024-09-05T00:00:00Z",
+        "fecha_vencimiento": "2024-10-01T00:00:00Z",
+        "estado": "pendiente"
+      }
+    ],
+    "tipo_proyecto": "optimización"
+  },
+  {
+    "_id": { "$oid": "66d76a7e6bc21f90b73ac855" },
+    "titulo": "Desarrollo de App Móvil",
+    "descripcion": "Proyecto para desarrollar una aplicación móvil para el comedor universitario",
+    "fecha_inicio": "2024-01-01T00:00:00Z",
+    "fecha_finalizacion": "2024-12-31T00:00:00Z",
+    "valor": 15000000,
+    "tareas": [
+      {
+        "titulo": "Diseñar interfaz",
+        "descripcion": "Diseñar la interfaz de usuario",
+        "fecha_creacion": "2024-01-05T00:00:00Z",
+        "fecha_vencimiento": "2024-02-01T00:00:00Z",
+        "estado": "pendiente"
+      },
+      {
+        "titulo": "Implementar backend",
+        "descripcion": "Desarrollar el backend del proyecto",
+        "fecha_creacion": "2024-03-01T00:00:00Z",
+        "fecha_vencimiento": "2024-06-01T00:00:00Z",
+        "estado": "en progreso"
+      }
+    ],
+    "tipo_proyecto": "implementación"
+  },
+  {
+    "_id": { "$oid": "66d76a7e6bc21f90b73ac858" },
+    "titulo": "Actualización del Sistema de Reservas",
+    "descripcion": "Mejora del sistema de reservas para un hotel, incluyendo nuevas funcionalidades y mejoras de rendimiento.",
+    "fecha_inicio": "2024-07-01T00:00:00Z",
+    "fecha_finalizacion": "2024-10-30T00:00:00Z",
+    "valor": 13000000,
+    "tareas": [
+      {
+        "titulo": "Actualizar interfaz de usuario",
+        "descripcion": "Rediseñar la interfaz de usuario del sistema de reservas",
+        "fecha_creacion": "2024-07-10T00:00:00Z",
+        "fecha_vencimiento": "2024-08-01T00:00:00Z",
+        "estado": "pendiente"
+      }
+    ],
+    "tipo_proyecto": "optimización"
+  },
+  {
+    "_id": { "$oid": "66d76a7e6bc21f90b73ac856" },
+    "titulo": "Sistema de Gestión de Clientes",
+    "descripcion": "Desarrollo de un sistema CRM para mejorar la relación con los clientes y gestionar la información de contacto.",
+    "fecha_inicio": "2024-04-01T00:00:00Z",
+    "fecha_finalizacion": "2024-12-01T00:00:00Z",
+    "valor": 18000000,
+    "tareas": [
+      {
+        "titulo": "Configurar base de datos",
+        "descripcion": "Establecer la base de datos para almacenar la información de los clientes",
+        "fecha_creacion": "2024-04-05T00:00:00Z",
+        "fecha_vencimiento": "2024-05-01T00:00:00Z",
+        "estado": "en progreso"
+      },
+      {
+        "titulo": "Desarrollar panel de administración",
+        "descripcion": "Crear un panel de administración para gestionar la información de clientes",
+        "fecha_creacion": "2024-06-01T00:00:00Z",
+        "fecha_vencimiento": "2024-09-01T00:00:00Z",
+        "estado": "pendiente"
+      }
+    ],
+    "tipo_proyecto": "gestión"
+  },
+  {
+    "_id": { "$oid": "66d76a7e6bc21f90b73ac859" },
+    "titulo": "Desarrollo de Portal de Noticias",
+    "descripcion": "Creación de un portal web para la publicación de noticias y artículos para una revista en línea.",
+    "fecha_inicio": "2024-06-01T00:00:00Z",
+    "fecha_finalizacion": "2024-12-01T00:00:00Z",
+    "valor": 14000000,
+    "tareas": [
+      {
+        "titulo": "Diseñar plantilla de noticias",
+        "descripcion": "Crear plantillas para la publicación de noticias",
+        "fecha_creacion": "2024-06-05T00:00:00Z",
+        "fecha_vencimiento": "2024-07-01T00:00:00Z",
+        "estado": "completado"
+      },
+      {
+        "titulo": "Implementar sistema de comentarios",
+        "descripcion": "Agregar funcionalidad para que los usuarios puedan comentar en las noticias",
+        "fecha_creacion": "2024-08-01T00:00:00Z",
+        "fecha_vencimiento": "2024-09-15T00:00:00Z",
+        "estado": "en progreso"
+      }
+    ],
+    "tipo_proyecto": "gestión"
+  },
+  {
+    "_id": { "$oid": "66d76a7e6bc21f90b73ac85b" },
+    "titulo": "Automatización de Proceso de Inventario",
+    "descripcion": "Implementación de un sistema automatizado para la gestión de inventarios en la bodega de distribución.",
+    "fecha_inicio": "2024-03-01T00:00:00Z",
+    "fecha_finalizacion": "2024-10-15T00:00:00Z",
+    "valor": 12000000,
+    "tareas": [
+      {
+        "titulo": "Analizar requisitos",
+        "descripcion": "Recopilar y analizar los requisitos del sistema",
+        "fecha_creacion": "2024-03-05T00:00:00Z",
+        "fecha_vencimiento": "2024-04-01T00:00:00Z",
+        "estado": "pendiente"
+      },
+      {
+        "titulo": "Desarrollar sistema de alertas",
+        "descripcion": "Crear un sistema de alertas para el bajo stock",
+        "fecha_creacion": "2024-05-01T00:00:00Z",
+        "fecha_vencimiento": "2024-08-01T00:00:00Z",
+        "estado": "en progreso"
+      }
+    ],
+    "tipo_proyecto": "optimización"
+  },
+  {
+    "_id": { "$oid": "66d76a7e6bc21f90b73ac85a" },
+    "titulo": "Construcción de Plataforma E-Learning",
+    "descripcion": "Desarrollo de una plataforma para la educación en línea para el instituto tecnológico.",
+    "fecha_inicio": "2024-02-01T00:00:00Z",
+    "fecha_finalizacion": "2024-11-30T00:00:00Z",
+    "valor": 20000000,
+    "tareas": [
+      {
+        "titulo": "Planificar contenido",
+        "descripcion": "Crear un plan de contenidos educativos",
+        "fecha_creacion": "2024-02-02T00:00:00Z",
+        "fecha_vencimiento": "2024-03-01T00:00:00Z",
+        "estado": "completado"
+      },
+      {
+        "titulo": "Desarrollar módulo de usuario",
+        "descripcion": "Implementar el módulo de gestión de usuarios",
+        "fecha_creacion": "2024-04-01T00:00:00Z",
+        "fecha_vencimiento": "2024-07-01T00:00:00Z",
+        "estado": "en progreso"
+      }
+    ],
+    "tipo_proyecto": "gestión"
+  },
+  {
+    "_id": { "$oid": "66d76a7e6bc21f90b73ac852" },
+    "titulo": "Desarrollo de Sistema de Gestión de Inventarios",
+    "descripcion": "Implementación de un sistema para la gestión y control de inventarios en la cadena de suministro.",
+    "fecha_inicio": "2024-11-01T00:00:00Z",
+    "fecha_finalizacion": "2024-12-31T00:00:00Z",
+    "valor": 16000000,
+    "tareas": [
+      {
+        "titulo": "Establecer procedimientos de inventario",
+        "descripcion": "Definir y establecer procedimientos para el control de inventarios",
+        "fecha_creacion": "2024-11-05T00:00:00Z",
+        "fecha_vencimiento": "2024-12-01T00:00:00Z",
+        "estado": "pendiente"
+      },
+      {
+        "titulo": "Desarrollar informes de inventario",
+        "descripcion": "Crear informes detallados sobre el estado del inventario",
+        "fecha_creacion": "2024-12-01T00:00:00Z",
+        "fecha_vencimiento": "2024-12-20T00:00:00Z",
+        "estado": "en progreso"
+      }
+    ],
+    "tipo_proyecto": "gestión"
+  }
+]
